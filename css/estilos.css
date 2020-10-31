@@ -79,7 +79,7 @@ nav a:hover {
 /* comienza la seccion de encabezado */
 .home-main {
     padding-top: var(--position-fixed-header);
-    background-image: url(/images/portada.jpg);
+    background-image: url(./images/portada.jpg);
     height: 400px;
     background-position: bottom;
     background-size: cover;
