@@ -18,7 +18,7 @@
 }
 .news__container {
     padding: 100px 20px;
-    height: 100vh;
+    /* height: 100%; */
     background-color: var(--light-color);
 }
 .news__grid {
