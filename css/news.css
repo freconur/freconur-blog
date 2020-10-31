@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap');
+:root {
+    --light-color: #ffffff;
+    --primary-color: #455A64;
+    --secundary-color:#607D8B;
+    --background-color: #1b1e1e;
+    --box-color: #212429;
+    --dark-color:#313434;
+    --fuente-principal: 'Poppins', sans-serif;
+    --fuente-secundario: 'Roboto Slab', sans-serif;
+    --h2-tamaño: 30px;
+    --position-fixed-header: 80px;
+} 
+*{
+    margin: 0;
+    padding: 0;
+}
+.news__container {
+    padding: 100px 20px;
+    height: 100vh;
+    background-color: var(--light-color);
+}
+.news__grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* height: 100vh; */
+    width: 850px;
+    margin: auto;
+}
+.news__article {
+    display: grid;
+    grid-column: 1;
+}
+.news__h2 {
+    font-family: var(--fuente-secundario);
+    /* height: auto; */
+}
+.news__p {
+    font-family: var(--fuente-principal);
+}
