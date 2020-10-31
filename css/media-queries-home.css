@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+    .home-blogs {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-blogs {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 480px) {
+    .footer__container {
+        display: block;
+        /* text-align: center; */
+    }
+}

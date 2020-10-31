@@ -1,0 +1,13 @@
+@media (max-width: 1024px) {
+    .news__container {
+        grid-template-columns: 1fr;
+    }
+    .news__grid {
+        grid-column: 1;
+    }
+}
+@media (max-width: 768px) {
+    .news__container {
+        grid-template-columns: 1fr;
+    }
+}
