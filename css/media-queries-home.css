@@ -27,7 +27,7 @@
         transition: .2s;
     }
     .header-menu-list.is-active {
-        bottom: 80px;
+        bottom: 100px;
     }
     nav li {
         height: 40px;
