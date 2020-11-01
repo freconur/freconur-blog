@@ -5,6 +5,7 @@
     --primary-color: #455A64;
     --secundary-color:#607D8B;
     --background-color: #1b1e1e;
+    --decoratioin-color: #9ffb0b;
     --box-color: #212429;
     --dark-color:#313434;
     --fuente-principal: 'Poppins', sans-serif;
@@ -44,7 +45,7 @@
     z-index: 30;
 }
 .header-container {
-    /* height: var(--position-fixed-header); */
+    height: var(--position-fixed-header);
     max-width: 100%;
     width: 850px;
     display: flex;
@@ -73,14 +74,14 @@ nav a {
     color: var(--light-color);
 }
 nav a:hover {
-	color: greenyellow;
+	color: var(--decoratioin-color);
 }
 .hover-decoration::after {
 	content: '';
 	display: block;
 	width: 0;
 	height: 2px;
-	background: yellowgreen;
+	background: var(--decoratioin-color);
 	transition: width .3s;
 }
 .hover-decoration:hover::after{
@@ -201,7 +202,7 @@ nav a:hover {
     background-color: var(--dark-color);
     align-items: center;
     display: flex;
-    border-top: solid 5px #65921f;
+    border-top: solid 5px var(--decoratioin-color);
 }
 .footer__container {
     display: flex;
