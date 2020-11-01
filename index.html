@@ -11,7 +11,7 @@
 		<title>Blog Freconur</title>
 	</head>
 	<body>
-    <i class="icon-menu menu-burger-button"></i>
+    <i class="icon-menu menu-burger-button" id="burger-menu">hola</i>
 		<header class="header">
 			<section class="header-container">
 				<div class="header-logo">
@@ -122,6 +122,26 @@
 						© FranCondori  2020</p>
 				</ul>
 			</div>
-		</footer>
+    </footer>
+    <script>
+      console.log('hola mundo')
+      console.log(document.querySelector('.header-menu-list'));
+
+      const menu = document.querySelector('.header-menu-list');
+      console.log(menu);
+      const burgerButton = document.querySelector('#burger-menu');
+
+      burgerButton.addEventListener('click', showHide)
+
+      function showHide() {
+        if(menu.classList.contains('is-active')) {
+          menu.classList.remove('is-active');
+        }else {
+          menu.classList.add('is-active');
+        }
+      }
+
+
+    </script>
 	</body>
 </html>

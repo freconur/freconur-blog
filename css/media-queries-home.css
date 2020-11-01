@@ -15,8 +15,33 @@
     }
     .header-menu-list {
         display: block;
+        background-color: white;
         height: auto;
         text-align: center;
+        position: fixed;
+        z-index: 50;
+        right: 30px;
+        bottom: -180px;
+        border-radius: 10%;
+        box-shadow: 4px 4px 10px rgba(0,0,0,.5);
+        transition: .2s;
+    }
+    .header-menu-list.is-active {
+        bottom: 80px;
+    }
+    nav li {
+        height: 40px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    nav li a {
+        color: black;
+        width: 100%;
+    }
+    .menu-burger-button {
+        display: block;
+        box-shadow: 4px 4px 10px rgba(0,0,0,.5);
     }
 }
 @media (max-width: 600px) {
