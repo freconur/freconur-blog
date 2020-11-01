@@ -8,10 +8,16 @@
         position: relative;
     }
     .header-logo {
+        width:  100%;
         text-align: center;
     }
+    .header img {
+        /* width: 100%; */
+        width: 100px;
+        /* margin: 0 20px; */
+    }
     .header-container {
-        display: block;
+        display: flex;
     }
     .header-menu-list {
         display: block;
@@ -41,7 +47,9 @@
     }
     .menu-burger-button {
         display: flex;
-        
+    }
+    .home-main {
+        padding-top: initial;
     }
 }
 @media (max-width: 600px) {
