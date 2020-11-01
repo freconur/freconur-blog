@@ -25,11 +25,20 @@
 .news__article {
     width: 100%;
 }
-.iframe__container {
-    width: 100%;
+.news__iframe__container {
+    height: 0px;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
 }
 .iframe__responsive {
-    width: 100%;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
 }
 .news__h2{
     font-family: var(--fuente-secundario);
