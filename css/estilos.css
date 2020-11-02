@@ -175,8 +175,19 @@ nav a:hover {
     /* object-fit: cover; */
     overflow: hidden;
     transition: .2s;
-
 }
+.images__post__01112020 {
+    background: url(../images/ps5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    z-index: 20;
+    width: 100%;
+    /* object-fit: cover; */
+    overflow: hidden;
+    transition: .2s;
+}
+
 .home-blogs-caja:hover .images__post {
     transition: .2s;
     transform: scale(1.1);
